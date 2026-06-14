@@ -10,54 +10,54 @@ The goal of these projects is to teach you real-world architecture, distributed 
 
 ## 1. AI Software Architect
 
-**Elevator Pitch:**
+## Elevator Pitch
 An intelligent assistant that takes a simple product description and generates a full system design architecture, complete with suggested microservices, database schemas, and API contracts.
 
-**Difficulty:**
+## Difficulty
 * Expert
 
-**Skills Learned:**
+## Skills Learned
 LLM orchestration, prompt engineering, complex state management, AST (Abstract Syntax Tree) generation, complex schema design.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Next.js, OpenAI API / LangChain, React Flow (for node graphs), Prisma.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 System Design theory, graph-based data structures, deterministic AI outputs via function calling.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling massive context windows for large architectures, real-time streaming of generated schemas without breaking JSON structures.
 
-**Extensions:**
+## Extensions
 Generate the boilerplate TypeScript code and a `docker-compose.yml` automatically based on the final architecture graph.
 
-**Monetization Potential:**
+## Monetization Potential
 SaaS for development agencies to bootstrap client proposals faster; premium tier for enterprise cloud architecture generation.
 
 ## 2. Personal Digital Twin
 
-**Elevator Pitch:**
+## Elevator Pitch
 A local-first, privacy-focused AI clone that reads your local markdown notes, Obsidian vault, or Notion pages, and acts as an interactive chatbot to recall your own knowledge.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 Vector databases, embedding generation, local-first syncing, Retrieval-Augmented Generation (RAG).
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Electron / Tauri, Node.js, SQLite + pgvector, Transformers.js.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Offline-first architecture, vector similarity search, data ingestion pipelines.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Efficiently re-indexing documents when files change locally without destroying CPU performance.
 
-**Extensions:**
+## Extensions
 Voice-to-text integration so you can talk to your twin; timeline visualization of when thoughts were recorded.
 
-**Monetization Potential:**
+## Monetization Potential
 Sell as a one-time purchase desktop application for privacy-conscious developers and researchers.
 
 ---
@@ -66,80 +66,80 @@ Sell as a one-time purchase desktop application for privacy-conscious developers
 
 ## 3. AI-Powered Code Review Platform
 
-**Elevator Pitch:**
+## Elevator Pitch
 A GitHub App that automatically analyzes Pull Requests, not just for syntax, but for architectural smells, security flaws, and performance bottlenecks, offering actionable TypeScript code suggestions.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 GitHub Apps/Webhooks, AST parsing, asynchronous queueing, CI/CD integrations.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Node.js, Express, BullMQ, GitHub API, Redis.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Event-driven architecture, secure webhook verification, background job processing.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling massive monorepo diffs, preventing GitHub API rate limiting, and ensuring rapid feedback loops during busy CI times.
 
-**Extensions:**
+## Extensions
 Track technical debt over time by aggregating warnings across multiple PRs and plotting them on a dashboard.
 
-**Monetization Potential:**
+## Monetization Potential
 Per-seat pricing for engineering teams, targeting CTOs who want to maintain high code quality.
 
 ## 4. GitHub Contribution Simulator
 
-**Elevator Pitch:**
+## Elevator Pitch
 A visual engine that analyzes your public GitHub activity and simulates it as a city or galaxy where each commit, PR, or issue builds new structures or stars.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 Data visualization, 3D rendering (WebGL), REST API pagination, caching.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, React, Three.js / React Three Fiber, GitHub GraphQL API.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Client-side rendering optimization, GraphQL data fetching, state synchronization between 2D UI and 3D canvas.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Rendering thousands of commits without dropping frames; efficiently caching massive GraphQL responses.
 
-**Extensions:**
+## Extensions
 Multiplayer mode where a team's repository is visualized as a collaborative city.
 
-**Monetization Potential:**
+## Monetization Potential
 Freemium tool; users can pay to export high-res videos of their city growing over time for social media.
 
 ## 5. Technical Debt Analyzer
 
-**Elevator Pitch:**
+## Elevator Pitch
 A CLI tool that scans a TypeScript codebase, identifies `// TODO` or `// FIXME` comments, analyzes cyclomatic complexity, and generates an interactive HTML report mapping out the most "dangerous" files.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 CLI creation, AST traversal, file system operations, static analysis.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Commander.js, ts-morph, esbuild, React (for report rendering).
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Visitor pattern (for AST), pipeline processing, static site generation.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Parsing large enterprise codebases without running out of memory (V8 heap limits).
 
-**Extensions:**
+## Extensions
 AI integration to suggest immediate refactors for the most complex files.
 
-**Monetization Potential:**
+## Monetization Potential
 Open-source core, with an enterprise GitHub Action version that tracks debt metrics over time.
 
 ---
@@ -148,28 +148,28 @@ Open-source core, with an enterprise GitHub Action version that tracks debt metr
 
 ## 6. Architecture Visualizer
 
-**Elevator Pitch:**
+## Elevator Pitch
 A browser-based drawing tool specifically constrained to cloud architecture. As you draw components (Load Balancer, API Gateway, DB), it automatically calculates estimated AWS/GCP latency, cost, and availability.
 
-**Difficulty:**
+## Difficulty
 * Expert
 
-**Skills Learned:**
+## Skills Learned
 Real-time canvas rendering, complex mathematical modeling, graph theory.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, React, XState, HTML5 Canvas / Fabric.js.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Cloud infrastructure patterns, cost estimation modeling, finite state machines.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Modeling deep dependency chains for latency calculations without circular reference crashes.
 
-**Extensions:**
+## Extensions
 Export diagrams to Terraform (`.tf`) files.
 
-**Monetization Potential:**
+## Monetization Potential
 B2B SaaS for DevOps teams estimating cloud migrations.
 
 ---
@@ -178,54 +178,54 @@ B2B SaaS for DevOps teams estimating cloud migrations.
 
 ## 7. Distributed Task Execution Platform
 
-**Elevator Pitch:**
+## Elevator Pitch
 A resilient background job processing system across multiple worker nodes, featuring automatic retries, dead-letter queues, and a central dashboard to monitor job health.
 
-**Difficulty:**
+## Difficulty
 * Expert
 
-**Skills Learned:**
+## Skills Learned
 Distributed systems, consensus, message brokers, concurrency, graceful degradation.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Node.js, Redis (Pub/Sub), PostgreSQL, Docker.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Master/Worker architecture, idempotency, distributed locking, polling vs. pub-sub.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Preventing race conditions when multiple workers attempt to lock the same task; handling network partitions.
 
-**Extensions:**
+## Extensions
 Add cron-like scheduling capabilities with millisecond precision.
 
-**Monetization Potential:**
+## Monetization Potential
 Open-source library with a managed cloud-hosted offering for startups.
 
 ## 8. API Observability Platform
 
-**Elevator Pitch:**
+## Elevator Pitch
 A drop-in middleware for Express/NestJS/Fastify that asynchronously ships API request/response metrics, latency, and payload shapes to a central dashboard for real-time traffic analysis.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 High-throughput data ingestion, time-series data storage, minimal-overhead interceptors.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Fastify, InfluxDB / ClickHouse, WebSockets, Next.js.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Non-blocking I/O, buffering and batching data, time-series aggregation.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Ensuring the middleware adds less than 1ms of latency to the host application while handling millions of requests.
 
-**Extensions:**
+## Extensions
 Automatic anomaly detection alerting when API latency spikes or payload shapes change unexpectedly.
 
-**Monetization Potential:**
+## Monetization Potential
 Enterprise SaaS providing SOC2-compliant API auditing and developer debugging tools.
 
 ---
@@ -234,28 +234,28 @@ Enterprise SaaS providing SOC2-compliant API auditing and developer debugging to
 
 ## 9. Self-Hosted Developer Operating System
 
-**Elevator Pitch:**
+## Elevator Pitch
 A browser-based "desktop" environment tailored for developers, featuring an integrated terminal, file manager, docker container manager, and code editor, served from a lightweight local Node.js server.
 
-**Difficulty:**
+## Difficulty
 * Expert
 
-**Skills Learned:**
+## Skills Learned
 WebSockets for pseudo-terminals (PTY), file streaming, virtualization concepts, UI window management.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Node.js, xterm.js, Socket.io, React, Docker API.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Web-based desktop environments, RPC (Remote Procedure Calls), security and sandboxing.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Managing multiple bi-directional WebSocket streams (terminal, file watch, docker stats) without memory leaks.
 
-**Extensions:**
+## Extensions
 A plugin system allowing other developers to build "apps" for your OS.
 
-**Monetization Potential:**
+## Monetization Potential
 Entirely Open-Source to build reputation, sponsor-ware for premium enterprise themes or plugins.
 
 ---
@@ -264,28 +264,28 @@ Entirely Open-Source to build reputation, sponsor-ware for premium enterprise th
 
 ## 10. Collaborative System Design Tool
 
-**Elevator Pitch:**
+## Elevator Pitch
 A multiplayer whiteboard optimized for system architecture, featuring real-time cursors, conflict resolution, and version history.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 WebSockets, CRDTs (Conflict-free Replicated Data Types), Operational Transformation.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Yjs (for CRDTs), React, Node.js, WebRTC.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Peer-to-peer networking, eventual consistency, optimistic UI updates.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling concurrent edits from 50+ users on the same node graph without race conditions.
 
-**Extensions:**
+## Extensions
 Voice chat integration based on cursor proximity.
 
-**Monetization Potential:**
+## Monetization Potential
 Enterprise SaaS alternative to Miro/Lucidchart, highly specialized for engineering teams.
 
 ---
@@ -294,28 +294,28 @@ Enterprise SaaS alternative to Miro/Lucidchart, highly specialized for engineeri
 
 ## 11. Headless E-Commerce with Edge Rendering
 
-**Elevator Pitch:**
+## Elevator Pitch
 A massive, highly optimized e-commerce storefront utilizing edge computing to render products globally in under 50ms, with a custom-built cart and inventory management backend.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 Edge caching, Server-Side Rendering (SSR), Stripe integrations, transactional databases.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Next.js (App Router), Cloudflare Workers, Prisma, PostgreSQL.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 ACID transactions, cache invalidation strategies, CDN architectures.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling inventory flash sales (thundering herd problem) without overselling products.
 
-**Extensions:**
+## Extensions
 A generic admin panel built entirely with server actions to manage products and view analytics.
 
-**Monetization Potential:**
+## Monetization Potential
 Open-source starter kit; sell premium commerce UI components or a hosted backend version.
 
 ---
@@ -324,28 +324,28 @@ Open-source starter kit; sell premium commerce UI components or a hosted backend
 
 ## 12. Feature-Flag & Remote Config Platform
 
-**Elevator Pitch:**
+## Elevator Pitch
 A platform allowing developers to dynamically toggle features or conduct A/B tests in production via a dashboard, instantly pushing updates to clients.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 SDK development, caching layers, real-time sync.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, React, Node.js, Redis.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Evaluating boolean logic engines securely, local cache fallbacks.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Delivering flag updates to millions of mobile clients concurrently.
 
-**Extensions:**
+## Extensions
 Gradual rollouts (e.g., enable for 10% of users).
 
-**Monetization Potential:**
+## Monetization Potential
 Usage-based billing targeting SMB SaaS companies.
 
 ---
@@ -354,28 +354,28 @@ Usage-based billing targeting SMB SaaS companies.
 
 ## 13. Focus-Driven Automated Calendar
 
-**Elevator Pitch:**
+## Elevator Pitch
 A calendar app that connects to GitHub, Slack, and Jira, automatically blocking out "Deep Work" time when it detects heavy coding activity or pending deadlines.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 OAuth2.0 flows, third-party API orchestration, timeline algorithms.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Next.js, Google Calendar API, TailwindCSS.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Polling vs Webhooks, secure token storage, temporal data manipulation.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling rate limits across multiple third-party APIs simultaneously.
 
-**Extensions:**
+## Extensions
 Auto-decline meetings during deep work blocks with custom, context-aware messages.
 
-**Monetization Potential:**
+## Monetization Potential
 Paid subscription for remote workers and engineering managers.
 
 ---
@@ -384,28 +384,28 @@ Paid subscription for remote workers and engineering managers.
 
 ## 14. Cryptocurrency Arbitrage Dashboard
 
-**Elevator Pitch:**
+## Elevator Pitch
 A platform that ingests live WebSocket feeds from multiple crypto exchanges, detects price discrepancies in real-time, and visualizes arbitrage opportunities.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 High-frequency data processing, WebSocket management, financial mathematics.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Node.js, RxJS, React, D3.js.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Stream processing, reactive programming, memory management for infinite data streams.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Managing CPU usage while processing thousands of ticks per second; garbage collection pauses.
 
-**Extensions:**
+## Extensions
 Simulated paper-trading engine to test strategies without real capital.
 
-**Monetization Potential:**
+## Monetization Potential
 Subscription access to historical tick data and premium indicators.
 
 ---
@@ -414,28 +414,28 @@ Subscription access to historical tick data and premium indicators.
 
 ## 15. Interactive Visual Algorithm Learner
 
-**Elevator Pitch:**
+## Elevator Pitch
 A platform where users write sorting or pathfinding algorithms in TypeScript directly in the browser, which are evaluated safely and visualized step-by-step on a grid.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 Browser sandboxing, Web Workers, AST manipulation, step-through debugging concepts.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Monaco Editor, Web Workers, React.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Secure code execution, message passing (postMessage), execution state pausing.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Preventing user-submitted infinite loops from crashing the main browser thread.
 
-**Extensions:**
+## Extensions
 Multiplayer coding battles (e.g., who can write the most optimal pathfinding code).
 
-**Monetization Potential:**
+## Monetization Potential
 B2C subscription for computer science students prepping for interviews.
 
 ---
@@ -444,28 +444,28 @@ B2C subscription for computer science students prepping for interviews.
 
 ## 16. HIPAA-Compliant Telemedicine Booking
 
-**Elevator Pitch:**
+## Elevator Pitch
 An end-to-end appointment system where patient data is heavily encrypted before hitting the database, with temporary URL generation for secure video calls.
 
-**Difficulty:**
+## Difficulty
 * Advanced
 
-**Skills Learned:**
+## Skills Learned
 Applied cryptography (AES-256), strict data validation, temporal tokens.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, NestJS, Postgres, WebRTC (for video), Zod.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Security-first architecture, symmetric/asymmetric encryption, principle of least privilege.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Searching and querying encrypted data efficiently.
 
-**Extensions:**
+## Extensions
 Audit logging system that tracks exactly who viewed which record and when.
 
-**Monetization Potential:**
+## Monetization Potential
 Whitelabel software for independent clinics.
 
 ---
@@ -474,28 +474,28 @@ Whitelabel software for independent clinics.
 
 ## 17. Automated Multi-Platform Content Repurposer
 
-**Elevator Pitch:**
+## Elevator Pitch
 A tool that takes a YouTube video link, extracts the transcript, uses AI to summarize it into a Twitter thread, a LinkedIn post, and an SEO-optimized blog article, scheduling them for release.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 API integrations, cron jobs, LLM orchestration.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, Next.js, BullMQ, OpenAI API, Twitter/LinkedIn APIs.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Asynchronous job processing, fan-out architecture.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling long video transcript processing without API timeouts.
 
-**Extensions:**
+## Extensions
 Add voice cloning to automatically generate short form audio podcasts.
 
-**Monetization Potential:**
+## Monetization Potential
 Subscription SaaS for content creators and marketing agencies.
 
 ---
@@ -504,28 +504,28 @@ Subscription SaaS for content creators and marketing agencies.
 
 ## 18. WebRTC Peer-to-Peer File Sharing
 
-**Elevator Pitch:**
+## Elevator Pitch
 A web app that allows two users to securely share massive files directly between their browsers without the data ever passing through a central server.
 
-**Difficulty:**
+## Difficulty
 * Intermediate
 
-**Skills Learned:**
+## Skills Learned
 WebRTC protocols, STUN/TURN servers, ArrayBuffers and Blob data.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, React, WebRTC API, Socket.io (for signaling).
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 P2P networking, chunking large payloads, NAT traversal.
 
-**Scaling Challenges:**
+## Scaling Challenges
 Handling browser memory limits when reassembling multi-gigabyte files.
 
-**Extensions:**
+## Extensions
 End-to-end encryption layer on top of the WebRTC data channels.
 
-**Monetization Potential:**
+## Monetization Potential
 Ad-supported free tool, or premium version with priority TURN server routing for faster connections behind strict firewalls.
 
 ---
@@ -534,26 +534,26 @@ Ad-supported free tool, or premium version with priority TURN server routing for
 
 ## 19. No-Code TypeScript Workflow Builder
 
-**Elevator Pitch:**
+## Elevator Pitch
 A visual Zapier-clone where users connect blocks (e.g., "On Webhook" -> "Send Email"), which compiles down into highly optimized, deployable TypeScript code under the hood.
 
-**Difficulty:**
+## Difficulty
 * Expert
 
-**Skills Learned:**
+## Skills Learned
 Code generation, graph traversal, visual node editors, dynamic execution.
 
-**Technologies Recommended:**
+## Technologies Recommended
 TypeScript, React Flow, Node.js, Docker.
 
-**Architecture Concepts Learned:**
+## Architecture Concepts Learned
 Compilers/Transpilers, Directed Acyclic Graphs (DAGs).
 
-**Scaling Challenges:**
+## Scaling Challenges
 Dynamically building and deploying thousands of user-generated scripts securely.
 
-**Extensions:**
+## Extensions
 Allow advanced users to eject the visual graph into a local Git repository of raw TypeScript.
 
-**Monetization Potential:**
+## Monetization Potential
 B2B automation tool for ops teams, priced by execution volume.
